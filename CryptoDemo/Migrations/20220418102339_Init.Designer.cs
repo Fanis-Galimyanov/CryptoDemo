@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CryptoDemo.Migrations
 {
     [DbContext(typeof(CryptoDemoContext))]
-    [Migration("20220416214958_InitData")]
-    partial class InitData
+    [Migration("20220418102339_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
